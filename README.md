@@ -23,7 +23,7 @@
 - ICA 15
 
 ## Weekly assignments
-- [WA1] (jakepielet.github.io)
+- [WA1] (https://jakepielet.github.io)
 - WA 2
 - WA 3
 - WA 4
