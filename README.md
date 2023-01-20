@@ -6,7 +6,7 @@
 - JS
 
 ## IN-CLASS ASSIGNMENTS
-- ICA 1
+- [ICA1] (https://docs.google.com/document/d/1dUjEZL6nRj_fusN69pMML4Tq9-4Cl0w9mrO8DQzAVKw/edit?usp=sharing)
 - ICA 2
 - ICA 3
 - ICA 4
