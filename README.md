@@ -24,7 +24,7 @@
 
 ## Weekly assignments
 - [WA 1](https://jakepielet.github.io)
-- WA 2
+- [WA 2](https://jakepielet.github.io/wa/wa2.html)
 - WA 3
 - WA 4
 - WA 5
