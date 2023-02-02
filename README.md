@@ -8,7 +8,8 @@
 ## IN-CLASS ASSIGNMENTS
 - [ICA 1](https://docs.google.com/document/d/1dUjEZL6nRj_fusN69pMML4Tq9-4Cl0w9mrO8DQzAVKw/edit?usp=sharing)
 - [ICA 2](https://docs.google.com/document/d/1ps3zbN7WvDQVil1xFq5iDZ_BCY7cJkyQ5fptkc1Rras/edit)
-- [ICA 3](http://127.0.0.1:5500/ica/Ica3a.html)[ICA 3b](http://127.0.0.1:5500/ica/ica3-part2/ica3b.html)
+- [ICA 3a](http://127.0.0.1:5500/ica/Ica3a.html)
+- [ICA 3b](http://127.0.0.1:5500/ica/ica3-part2/ica3b.html)
 - ICA 4
 - ICA 5
 - ICA 6
