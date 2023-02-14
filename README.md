@@ -10,7 +10,7 @@
 - [ICA 2](https://docs.google.com/document/d/1ps3zbN7WvDQVil1xFq5iDZ_BCY7cJkyQ5fptkc1Rras/edit)
 - [ICA 3a](http://127.0.0.1:5500/ica/Ica3a.html)
 - [ICA 3b](http://127.0.0.1:5500/ica/ica3-part2/ica3b.html)
-- ICA 4
+- [ICA 4](http://127.0.0.1:5500/ica/ica4.html)
 - ICA 5
 - ICA 6
 - ICA 7
@@ -27,7 +27,7 @@
 - [WA 1](https://jakepielet.github.io)
 - [WA 2](https://jakepielet.github.io/wa/wa2.html)
 - [WA 3](http://127.0.0.1:5500/wa/wa3.html)
-- WA 4
+- [WA 4](http://127.0.0.1:5500/wa/WA4/index.html)
 - WA 5
 - WA 6
 - WA 7
