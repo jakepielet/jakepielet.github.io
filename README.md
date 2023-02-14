@@ -26,8 +26,8 @@
 ## Weekly assignments
 - [WA 1](https://jakepielet.github.io)
 - [WA 2](https://jakepielet.github.io/wa/wa2.html)
-- [WA 3](http://127.0.0.1:5500/wa/wa3.html)
-- [WA 4](http://127.0.0.1:5500/wa/WA4/index.html)
+- [WA 3](https://jakepielet.github.io/wa/wa3)
+- [WA 4](https://jakepielet.github.io/wa/WA4/)
 - WA 5
 - WA 6
 - WA 7
