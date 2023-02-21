@@ -11,7 +11,7 @@
 - [ICA 3a](http://127.0.0.1:5500/ica/Ica3a.html)
 - [ICA 3b](http://127.0.0.1:5500/ica/ica3-part2/ica3b.html)
 - [ICA 4](http://127.0.0.1:5500/ica/ica4.html)
-- ICA 5
+- [ICA 5](https://jakepielet.github.io/ica/ica5/ica5.html)
 - ICA 6
 - ICA 7
 - ICA 8
@@ -28,8 +28,8 @@
 - [WA 2](https://jakepielet.github.io/wa/wa2.html)
 - [WA 3](https://jakepielet.github.io/wa/wa3)
 - [WA 4](https://jakepielet.github.io/wa/WA4/)
-- [WA 5](https://jakepielet.github.io/ica/ica5/ica5.html)
-- WA 6
+- [WA 5](https://jakepielet.github.io/wa/WA5/wa5.html)
+- [WA 6]
 - WA 7
 - WA 8
 - WA 9
