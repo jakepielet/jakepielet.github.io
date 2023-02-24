@@ -29,7 +29,7 @@
 - [WA 3](https://jakepielet.github.io/wa/wa3)
 - [WA 4](https://jakepielet.github.io/wa/WA4/)
 - [WA 5](https://jakepielet.github.io/wa/WA5/wa5.html)
-- [WA 6]
+- [WA 6](https://jakepielet.github.io/ica/ica6/ica6-part1.html)
 - WA 7
 - WA 8
 - WA 9
