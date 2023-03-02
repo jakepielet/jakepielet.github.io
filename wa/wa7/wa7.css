@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color:  brown;
+}
+
+
+nav:hover {
+    background-color: blue;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family:fantasy
+}
+
+img{
+    width:80px;
+    height: 30vh;
+    width: 30vh;
+}
+
+img {
+    animation:zoom 2s infinite alternate;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform:scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#red-ball {
+    background-color: darkblue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5vw;
+    top: 0;
+}
+#red-ball {
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0% {
+        transform: translate(0,0);
+    }
+    25% {
+        transform: translate(100%,0);
+    }
+    50% {
+        transform: translate(100%,100%);
+    }
+    75% {
+        transform: translate(0,100%);
+    }
+    100%{
+        transform:translate(0,0);
+    }
+}
