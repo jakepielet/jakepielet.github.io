@@ -30,7 +30,7 @@
 - [WA 4](https://jakepielet.github.io/wa/WA4/)
 - [WA 5](https://jakepielet.github.io/wa/WA5/wa5.html)
 - [WA 6](https://jakepielet.github.io/wa/wa6/wa6.html)
-- WA 7 
+- [WA 7](https://jakepielet.github.io/wa/wa7/wa7.html)
 - WA 8
 - WA 9
 - WA 10
