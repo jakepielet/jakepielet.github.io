@@ -1,0 +1,155 @@
+body
+{
+    background-color: lightblue;
+    font-size: 8px;
+    font-family: 'Microsoft Yi Baiti';
+}
+
+.title
+{
+    margin: 2em 10em;
+}
+
+.title h1
+{
+    font-size: 12em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 200;
+}
+
+nav
+{
+    margin: 2em 10em;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+nav a
+{
+    color:rgb(39, 39, 39);
+    font-size: 2.5em;
+    text-decoration: none;
+    transition: 0.5s ease-out;
+}
+
+nav a:hover
+{
+    color: rgb(160, 160, 160);
+}
+
+article
+{
+    width: 100%;
+    margin: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0.5em 0.5em rgb(39, 39, 39);
+    border: 0.5px solid rgb(39, 39, 39);
+}
+
+#aboutme
+{
+    margin: 2em 10em;
+    display: flex;
+}
+
+#academics
+{
+    margin: 2em 10em;
+    display: flex;
+}
+
+#gallery
+{
+    margin: 2em 12em;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.column
+{
+    flex: 50%;
+    max-width: 50%;
+}
+  
+.column img 
+{
+    vertical-align: middle;
+    width: 100%;
+}
+
+#contact
+{
+    display: flex;
+    margin: 2em 10em;
+}
+
+#externalLinks
+{
+    display: flex;
+    margin: 2em 10.5em;
+    justify-content: space-evenly;
+}
+
+#externalLinks a
+{
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border: 0.5px solid rgb(39, 39, 39);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: none;
+    transition: 0.5s ease-out;
+}
+
+#externalLinks a:hover
+{
+    background-color: whitesmoke;
+    color:rgb(39, 39, 39);
+}
+
+h2
+{
+    font-size: 3.5em;
+    color:rgb(39, 39, 39);
+}
+
+h3
+{
+    font-size: 2.75em;
+    margin-left: 30px;
+    color:rgb(39, 39, 39);
+}
+
+h4
+{
+    font-size: 2em;
+    margin-left: 30px;
+    color: rgb(79, 79, 79);
+}
+
+p
+{
+    margin-left: 30px;
+    color:rgb(39, 39, 39);
+    font-size: 2em;
+}
+
+ul
+{
+    list-style: square;
+    font-size: 2em;
+}
+
+/* MOBILE */
+@media (max-width: 500px)
+{
+    
+}
