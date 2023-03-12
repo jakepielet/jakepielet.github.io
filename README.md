@@ -2,7 +2,7 @@
 
 ## Projects
 - [HTML](https://jakepielet.github.io/html-midterm/page5.html)
-- CSS
+- [CSS](https://jakepielet.github.io/cssmidterm/cssmidterm.html)
 - JS
 
 ## IN-CLASS ASSIGNMENTS
