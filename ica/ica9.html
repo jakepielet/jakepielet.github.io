@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button{
+            border:10px solid darkmagenta;
+            border-radius: 20px;
+            background-color: magenta;
+            padding:5px;
+            width: 250px;
+        }
+
+        p {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="button">
+        <p>Click me!</p>
+    </div>
+<br>
+    <div class="form">
+        <label for "guessField">Enter a guess:</label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    
+    
+    <script>
+        console.log("Hello, World!")
+        let btn= document.querySelector("#button");
+        // console.log(btn);
+
+        function changeBtn(){
+            // console.log("This worked!");
+            btn.textContent = "Test"
+            btn.style.backgroundColor = "darkmagenta";
+            btn.style.border = "2px solid magenta"
+            btn.style.color = "white";
+        }
+
+        btn.addEventListener('click', changeBtn);
+
+        function checkguess() {
+            //
+            let value = usrGuess.value * 2;
+            alert(value)
+        }
+
+        let guessBtn = document.querySelector(".guessSubmit");
+        let userGuess = document.querySelector(".guessField");
+        //
+    </script>
+
+<p id="counter"></p>
+
+<button id="generate-random-number">
+    Generate a random number
+</button>
+
+<p id="random-number"></p>
+
+<script>
+    let randomNumberP = document.getElementById("random-number").innerHTML;
+    document.getElementById("generate-random-number").addEventListener("click", function() {
+        let randomNumber = Math.floor(Math.random() * 100);
+        document.getElementById("random-number").innerHTML = randomNumber;
+    });
+</script>
+    
+</body>
+</html>
