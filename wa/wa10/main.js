@@ -7,9 +7,9 @@ const overlay = document.querySelector('.overlay');
 const imageList = ['pic6.jpg', 'pic7.jpg', 'pic8.jpg', 'pic9.jpg', 'pic10.jpg'];
 const alts = {
     'pic1.jpg' : 'closeup of a human eye',
-    'pic2.jpg' : 'Rock that looks like a wave',
-    'pic3.jpg' : 'Purple and white sansies',
-    'pic4.jpg' : 'Section of wall from a thomb',
+    'pic2.jpg' : 'A wave',
+    'pic3.jpg' : 'Purple & white Flowers',
+    'pic4.jpg' : 'Thomb',
     'pic5.jpg' : 'Leaf',
 
 }
