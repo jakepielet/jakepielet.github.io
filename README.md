@@ -17,7 +17,7 @@
 - ICA 8
 - [ICA 9](https://jakepielet.github.io/ica/ica9)
 - [ICA 10](https://jakepielet.github.io/ica/ica10/ica10.html)
-- ICA 11
+- [ICA 11](https://jakepielet.github.io/ica/ica11/ica11.html)
 - ICA 12
 - ICA 13
 - ICA 14
