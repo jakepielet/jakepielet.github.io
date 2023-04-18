@@ -18,7 +18,7 @@
 - [ICA 9](https://jakepielet.github.io/ica/ica9)
 - [ICA 10](https://jakepielet.github.io/ica/ica10/ica10.html)
 - [ICA 11](https://jakepielet.github.io/ica/ica11/ica11.html)
-- ICA 12
+- [ICA 12](https://jakepielet.github.io/ica/ica12/ica12.html)
 - ICA 13
 - ICA 14
 - ICA 15
@@ -34,8 +34,8 @@
 - WA 8
 - [WA 9](https://jakepielet.github.io/wa/wa9/wa9.html)
 - [WA 10](https://jakepielet.github.io/wa/wa10/wa10.html)
-- WA 11
-- WA 12
+- [WA 11](https://jakepielet.github.io/wa/wa11/wa11.html)
+- [WA 12](https://jakepielet.github.io/wa/wa12/wa12.html)
 - WA 13
 - WA 14
 - WA 15
