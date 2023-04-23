@@ -1,0 +1,40 @@
+video {
+  width: 1000px;
+  height: 500px;
+}
+.cool-button {
+    background: linear-gradient(to bottom right, #FFC107, #FF9800);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .cool-button:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+  }
+
+  body
+{
+  background-color: rgb(103, 103, 103);
+}
+
+
+.output
+{
+  text-align: center;  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30pt;
+}
+
+p
+{
+  text-align: center;  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20pt;
+}
