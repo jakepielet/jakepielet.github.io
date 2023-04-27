@@ -36,6 +36,6 @@
 - [WA 10](https://jakepielet.github.io/wa/wa10/wa10.html)
 - [WA 11](https://jakepielet.github.io/wa/wa11/wa11.html)
 - [WA 12](https://jakepielet.github.io/wa/wa12/wa12.html)
-- WA 13
-- WA 14
+- [WA 13](http://jakepielet.me/wa/wa13(1)/wa13(1).html)
+- [WA 14](http://jakepielet.me/wa/wa14/wa14.html)
 - WA 15
