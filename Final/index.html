@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake's Portfolio</title>
+    <link rel="stylesheet" href="final.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<style>
+
+    #slideShow {display :block; width:700px;margin-left:auto;margin-right:auto;}
+    .slide {display:none;background-color: white;  width:200px; visibility:hidden}
+    img.gallery  {width:200px !important;overflow:none; visibility:inherit;}
+
+</style>
+<script>
+
+
+    function fadeIn() {
+        console.log("ffffffffff")
+        alert("---")
+        // const duration =600;
+        // let element = document.getElementById('slideShow')
+        // element.style.display = '';s
+        // element.style.opacity = 0;
+        // var last = +new Date();
+        // var tick = function() {
+        //     element.style.opacity = +element.style.opacity + (new Date() - last) / duration;
+        //     last = +new Date();
+        //     if (+element.style.opacity < 1) {
+        //         (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+        //     }
+        // };
+        // tick();
+    }
+</script>
+</head>
+<body>
+<nav>
+    <a href="#aboutMe" onclick="showPopup()">About</a>
+    <!-- other links -->
+</nav>
+
+<div class="title">
+    <h1>Jake's ddd Portfilio</h1>
+</div>
+
+<nav>
+    <a href="#aboutMe">About</a>
+    <a href="#design">My Design</a>
+    <a href="#contact">Contact</a>
+    <a href="#externalLinks">Links</a>
+</nav>
+
+<div id="aboutMe">
+    <article>
+        <h3>About</h3>
+        <span class="highlight">Hi!</span> My name is Jake Pielet, I am a fourth-year undergraduate student from
+        Chicago, Illinois and am attending the University of Colorado Boulder. I am majoring in Strategic Commutations
+        with am emphasis in Media Design and a minor in Creative, Technology and Design. I worked as an Media Design
+        intern at GK Real Estate this past summer, where I was tasked to redesign eight different websites and design
+        brochures for new properties.
+    </article>
+</div>
+
+
+<div id="test" onclick="slides()">Click more for logos</div>
+<div id="slideShow" onclick="slides()">
+    <div class="slide" id="slide1">
+        <img src="images/pic1.jpg" class="gallery" alt="A logo I made">
+        <div class="slogan">foo bar</div>
+    </div>
+    <div class="slide" id="slide2">
+        <img src="images/pic2.jpg" class="gallery"  alt="A logo I made">
+        <div class="slogan">foo bar</div>
+    </div>
+    <div class="slide" id="slide3">
+        <img src="images/pic3.jpg" class="gallery"  alt="A logo I made">
+        <div class="slogan">foo bar</div>
+    </div>
+    <div class="slide" id="slide4">
+        <img src="images/pic4.jpg" class="gallery"  alt="A logo I made">
+        <div class="slogan">foo bar</div>
+    </div>
+    <div class="slide" id="slide5">
+        <img src="images/pic5.jpg" class="gallery"  alt="A logo I made">
+        <div class="slogan">foo bar</div>
+    </div>
+    <div class="slide" id="slide6">
+        <img src="images/pic6.jpg" class="gallery" alt="A logo I made">
+        <div class="slogan">foo bar</div>
+    </div>
+</div>
+
+<div id="contact">
+    <article>
+        <h3>Contact</h3>
+        <ul>
+            <li> E-Mail: jakepielet@gmail.com</li>
+            <li>Phone: 847-987-5802</li>
+        </ul>
+    </article>
+</div>
+
+<div id="externalLinks">
+    <a href="https://japi1169.myportfolio.com/work">My Portfolio</a>
+    <a href="https://www.linkedin.com/in/jacob-pielet-237907182/">My LinkedIn Profile</a>
+    <a href="https://japi1169.myportfolio.com/about">Resume</a>
+</div>
+
+<script>
+    function slides() {
+        let start = randomItem(['cats', ' go dog dog', ' go bears'])
+        let colors =['DD', 'FF', '33', 'CC', '00']
+        console.log("heeeeere", start)
+
+        let i = 1;
+        do {
+            console.log("show", "slide" + i)
+            let element = document.getElementById("slide" + i)
+
+            setTimeout(function () {
+                let newColor = "#" + randomItem(colors) + randomItem(colors) +randomItem(colors);
+
+                element.getElementsByClassName('slogan')[0].style.background= newColor;
+                show(element)
+            }, i*1000);
+
+            let block = window.getComputedStyle(element, null).visibility
+            // if (block === "hidden" ) {
+            //     show(element)
+            // }
+            // else
+                i = i+1;
+            // if (x === 4 )
+            //     x=0;
+        } while (i < 7);
+    }
+
+    const randomItem = function(items) {  //Send array, recieve back random item
+        const max = items.length;
+        const x = Math.floor((Math.random() * max));
+        return items[x];
+    };
+
+        // Show an element
+        let show = function (elem) {
+            elem.style.display = 'inline-block';
+            elem.style.visibility = 'visible';
+        };
+
+// Hide an element
+        let hide = function (elem) {
+
+            elem.style.visibility  = 'hidden';
+        };
+
+
+</script>
+</body>
+</html>
